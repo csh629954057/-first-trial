@@ -1,0 +1,5 @@
+# dsh-desktop-wallpaper 的 bundle patch：把 Host + Client 行插入当前 profile 的
+# 插件名册。id 必须与 lib/index.js 导出的 name 一致。
+- insert:
+    - id: ui-desktop-wallpaper
+      name: dsh-desktop-wallpaper
